@@ -1,0 +1,10 @@
+spark-submit --master spark://cluster-01:7077 streaks.py
+
+hdfs dfs -ls /uhadoop2022/G5/results_project/
+
+hdfs dfs -cat /uhadoop2022/G5/results_project/part-00000
+
+
+hdfs dfs -rm -r /uhadoop2022/G5/results_project
+
+
