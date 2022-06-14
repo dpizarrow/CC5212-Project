@@ -86,6 +86,7 @@ if __name__ == '__main__':
  
     #Saving the results.
     fileout = "hdfs://cm:9000/uhadoop2022/G5/results_project/"
-    result.saveAsTextFile(fileout);
+    result.saveAsTextFile(fileout)
     spark.stop()
  
+
