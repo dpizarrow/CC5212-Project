@@ -18,8 +18,8 @@ def second_fun(prev,cur):
 
     
 def streak_creator(L):
-    max_count = -sys.maxsize
-    cur_count =1
+    max_count = 0
+    cur_count = 1
     if (len(L) == 1):
         return 1
     for i,elem in enumerate(L):
