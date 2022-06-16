@@ -55,6 +55,9 @@ When defining the minimum popularity to be 60, the top 10 artists with the longe
 
 Analyzing the table its possible to observe that some of the most recognized artists of the past 10 years make an appearance as the most consistent artists based on the metric we defined earlier. This is not surprising, as we expected that some of the most best-selling and popular artists would end up also being more consistent in their ability to release consecutive and also popular songs. 
 
+## Future Work
+
+In the future, a way to make this project better is to make it more efficient by trying out different algorithms to achieve the same results but in a more timely manner. This is significant because, when it comes to processing large amounts of data in distributed systems, minor differences in efficiency can contribute significantly to a better experience. Particular attention must be paid to the way the maximum streak is calculated.
 
 ## Running the script
 
